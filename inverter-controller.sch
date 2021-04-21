@@ -15885,6 +15885,131 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 </deviceset>
 </devicesets>
 </library>
+<library name="con-phoenix-381" urn="urn:adsk.eagle:library:27486877">
+<description>&lt;b&gt;Phoenix Connectors  Grid 3.81 mm / 150 Mils (L+B)&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;IMC 1,5/...-G-3,81 - Invertierter Mini-Combicon 3.81mm horizontal
+&lt;li&gt;IMCV 1,5/...-G-3,81 - Invertierter Mini-Combicon 3.81mm vertikal
+&lt;li&gt;MC 1,5/...-G-3,81 - Mini-Combicon 3.81mm horizontal
+&lt;li&gt;MCV 1,5/...-G-3,81 - Mini-Combicon 3.81mm vertikal
+&lt;li&gt;MCDV 1,5/...-G-3,81 - Mini-Combicon Doppelstock 3.81mm vertikal
+&lt;li&gt;MC 1,5/...-ST-3,81 - Mini-Combicon Stecker 3.81mm horizontal
+&lt;li&gt;MCVR 1,5/...-ST-3,81 - Mini-Combicon Stecker 3.81mm vertikal
+&lt;li&gt;MCVW 1,5/...-ST-3,81 - Mini-Combicon Stecker 3.81mm vertikal
+&lt;/ul&gt;
+ &lt;author&gt;Created by fbleikamp@lenord.de&lt;/author&gt;</description>
+<packages>
+<package name="MCV3" urn="urn:adsk.eagle:footprint:27486945/1" library_version="1">
+<description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 3-polig&lt;/b&gt;&lt;p&gt;
+MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
+<wire x1="4.445" y1="-0.635" x2="4.445" y2="0.635" width="0.254" layer="51"/>
+<wire x1="4.445" y1="-0.635" x2="3.175" y2="-0.635" width="0.254" layer="51"/>
+<wire x1="4.445" y1="0.635" x2="3.175" y2="0.635" width="0.254" layer="51"/>
+<wire x1="3.175" y1="0.635" x2="3.175" y2="-0.635" width="0.254" layer="51"/>
+<wire x1="6.35" y1="3.175" x2="-6.35" y2="3.175" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-3.937" x2="6.35" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.715" y1="2.667" x2="5.715" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="5.715" y1="-2.6035" x2="4.318" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="3.302" y1="-2.6035" x2="2.032" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="1.778" y1="-2.6035" x2="0.508" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="-0.508" y1="-2.6035" x2="-1.778" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="5.207" y1="-3.429" x2="5.207" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="2.413" y1="-3.429" x2="2.413" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="5.207" y1="-2.8575" x2="4.318" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="4.318" y1="-2.8575" x2="4.318" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="2.413" y1="-2.8575" x2="3.302" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="3.302" y1="-2.8575" x2="3.302" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.254" layer="51"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.254" layer="51"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="-0.635" width="0.254" layer="51"/>
+<wire x1="-0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.254" layer="51"/>
+<wire x1="-1.397" y1="-3.429" x2="-1.397" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="-1.397" y1="-2.8575" x2="-0.508" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="-0.508" y1="-2.8575" x2="-0.508" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="1.397" y1="-3.429" x2="1.397" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="1.397" y1="-2.8575" x2="0.508" y2="-2.8575" width="0.254" layer="51"/>
+<wire x1="0.508" y1="-2.8575" x2="0.508" y2="-2.6035" width="0.254" layer="51"/>
+<wire x1="-6.35" y1="3.175" x2="-6.35" y2="-3.937" width="0.254" layer="21"/>
+<wire x1="-5.715" y1="-2.6035" x2="-5.715" y2="2.667" width="0.254" layer="21"/>
+<wire x1="-2.032" y1="-2.6035" x2="-3.302" y2="-2.6035" width="0.254" layer="21"/>
+<wire x1="-4.318" y1="-2.6035" x2="-5.715" y2="-2.6035" width="0.254" layer="21"/>
+<wire x1="-5.207" y1="-3.429" x2="-5.207" y2="-2.8575" width="0.254" layer="21"/>
+<wire x1="-5.207" y1="-2.8575" x2="-4.318" y2="-2.8575" width="0.254" layer="21"/>
+<wire x1="-4.318" y1="-2.8575" x2="-4.318" y2="-2.6035" width="0.254" layer="21"/>
+<wire x1="-2.413" y1="-3.429" x2="-2.413" y2="-2.8575" width="0.254" layer="21"/>
+<wire x1="-2.413" y1="-2.8575" x2="-3.302" y2="-2.8575" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="-2.8575" x2="-3.302" y2="-2.6035" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-0.635" x2="-3.175" y2="0.635" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="-0.635" x2="-4.445" y2="-0.635" width="0.254" layer="51"/>
+<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="0.635" x2="-4.445" y2="0.635" width="0.254" layer="51"/>
+<wire x1="5.207" y1="-3.429" x2="2.413" y2="-3.429" width="0.254" layer="51"/>
+<wire x1="1.397" y1="-3.429" x2="-1.397" y2="-3.429" width="0.254" layer="51"/>
+<wire x1="-2.413" y1="-3.429" x2="-5.207" y2="-3.429" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-3.937" x2="-6.35" y2="-3.937" width="0.254" layer="21"/>
+<wire x1="2.032" y1="-2.6035" x2="2.032" y2="2.667" width="0.254" layer="51"/>
+<wire x1="1.778" y1="-2.6035" x2="1.778" y2="2.667" width="0.254" layer="51"/>
+<wire x1="-1.778" y1="-2.6035" x2="-1.778" y2="2.667" width="0.254" layer="51"/>
+<wire x1="-2.032" y1="-2.6035" x2="-2.032" y2="2.667" width="0.254" layer="21"/>
+<wire x1="2.7305" y1="2.667" x2="4.8895" y2="2.667" width="0.254" layer="51" curve="99.078618"/>
+<wire x1="4.8895" y1="2.667" x2="5.715" y2="2.667" width="0.254" layer="51"/>
+<wire x1="2.7305" y1="2.667" x2="2.032" y2="2.667" width="0.254" layer="51"/>
+<wire x1="-1.0795" y1="2.667" x2="1.0795" y2="2.667" width="0.254" layer="51" curve="99.078618"/>
+<wire x1="1.0795" y1="2.667" x2="1.778" y2="2.667" width="0.254" layer="51"/>
+<wire x1="-1.0795" y1="2.667" x2="-1.778" y2="2.667" width="0.254" layer="51"/>
+<wire x1="-4.8895" y1="2.667" x2="-2.7305" y2="2.667" width="0.254" layer="21" curve="99.078618"/>
+<wire x1="-2.7305" y1="2.667" x2="-2.032" y2="2.667" width="0.254" layer="21"/>
+<wire x1="-4.8895" y1="2.667" x2="-5.715" y2="2.667" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.27" diameter="1.905" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.27" diameter="1.905" shape="long" rot="R90"/>
+<pad name="3" x="3.81" y="0" drill="1.27" diameter="1.905" shape="long" rot="R90"/>
+<text x="-6.35" y="3.81" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-6.35" y="-5.969" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MCV3" urn="urn:adsk.eagle:package:27487037/1" type="box" library_version="1">
+<description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 3-polig&lt;/b&gt;&lt;p&gt;
+MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
+<packageinstances>
+<packageinstance name="MCV3"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MCST" urn="urn:adsk.eagle:symbol:27486907/1" library_version="1">
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="-10.16" y="-0.635" size="1.524" layer="95">&gt;NAME</text>
+<pin name="SK" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCV3" urn="urn:adsk.eagle:component:27487119/1" prefix="J" library_version="1">
+<description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 3polig&lt;/b&gt;&lt;p&gt;
+MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
+<gates>
+<gate name="-1" symbol="MCST" x="2.54" y="5.08" addlevel="always"/>
+<gate name="-2" symbol="MCST" x="2.54" y="0" addlevel="always"/>
+<gate name="-3" symbol="MCST" x="2.54" y="-5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="MCV3">
+<connects>
+<connect gate="-1" pin="SK" pad="1"/>
+<connect gate="-2" pin="SK" pad="2"/>
+<connect gate="-3" pin="SK" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27487037/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16155,6 +16280,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <part name="+3V18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J3" library="con-phoenix-381" library_urn="urn:adsk.eagle:library:27486877" deviceset="MCV3" device="" package3d_urn="urn:adsk.eagle:package:27487037/1"/>
+<part name="J4" library="con-phoenix-381" library_urn="urn:adsk.eagle:library:27486877" deviceset="MCV3" device="" package3d_urn="urn:adsk.eagle:package:27487037/1"/>
+<part name="J5" library="con-phoenix-381" library_urn="urn:adsk.eagle:library:27486877" deviceset="MCV3" device="" package3d_urn="urn:adsk.eagle:package:27487037/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -17315,6 +17443,33 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 </instance>
 <instance part="GND49" gate="1" x="178.562" y="143.51" smashed="yes" rot="R90">
 <attribute name="VALUE" x="179.07" y="145.288" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J3" gate="-1" x="387.35" y="261.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="386.715" y="271.78" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J3" gate="-2" x="382.27" y="261.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.635" y="271.78" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J3" gate="-3" x="377.19" y="261.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="376.555" y="271.78" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J4" gate="-1" x="426.72" y="260.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="426.085" y="270.51" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J4" gate="-2" x="421.64" y="260.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="421.005" y="270.51" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J4" gate="-3" x="416.56" y="260.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="415.925" y="270.51" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J5" gate="-1" x="471.17" y="260.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="470.535" y="270.51" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J5" gate="-2" x="466.09" y="260.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="465.455" y="270.51" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="J5" gate="-3" x="461.01" y="260.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="460.375" y="270.51" size="1.524" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -19122,6 +19277,11 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="388.62" y1="218.44" x2="388.62" y2="212.09" width="0.1524" layer="91"/>
 <label x="388.62" y="212.09" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="J3" gate="-1" pin="SK"/>
+<wire x1="387.35" y1="259.08" x2="387.35" y2="252.73" width="0.1524" layer="91"/>
+<label x="387.35" y="254" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="NO2" class="0">
 <segment>
@@ -19143,12 +19303,22 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="430.53" y1="218.44" x2="430.53" y2="212.09" width="0.1524" layer="91"/>
 <label x="430.53" y="212.09" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="J4" gate="-1" pin="SK"/>
+<wire x1="426.72" y1="257.81" x2="426.72" y2="251.46" width="0.1524" layer="91"/>
+<label x="426.72" y="252.73" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="COM3" class="0">
 <segment>
 <pinref part="K3" gate="G$0" pin="11"/>
 <wire x1="473.71" y1="218.44" x2="473.71" y2="212.09" width="0.1524" layer="91"/>
 <label x="473.71" y="212.09" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J5" gate="-1" pin="SK"/>
+<wire x1="471.17" y1="257.81" x2="471.17" y2="251.46" width="0.1524" layer="91"/>
+<label x="471.17" y="252.73" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="NO3" class="0">
@@ -19666,6 +19836,40 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <pinref part="X8" gate="-10" pin="S"/>
 <wire x1="64.77" y1="304.8" x2="54.61" y2="304.8" width="0.1524" layer="91" style="longdash"/>
 <label x="55.88" y="304.8" size="1.4224" layer="95"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<pinref part="J3" gate="-2" pin="SK"/>
+<wire x1="382.27" y1="259.08" x2="382.27" y2="252.73" width="0.1524" layer="91"/>
+<label x="382.27" y="254" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J4" gate="-2" pin="SK"/>
+<wire x1="421.64" y1="257.81" x2="421.64" y2="251.46" width="0.1524" layer="91"/>
+<label x="421.64" y="252.73" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J5" gate="-2" pin="SK"/>
+<wire x1="466.09" y1="257.81" x2="466.09" y2="251.46" width="0.1524" layer="91"/>
+<label x="466.09" y="252.73" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="NO" class="0">
+<segment>
+<pinref part="J3" gate="-3" pin="SK"/>
+<wire x1="377.19" y1="259.08" x2="377.19" y2="252.73" width="0.1524" layer="91"/>
+<label x="377.19" y="254" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J4" gate="-3" pin="SK"/>
+<wire x1="416.56" y1="257.81" x2="416.56" y2="251.46" width="0.1524" layer="91"/>
+<label x="416.56" y="252.73" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J5" gate="-3" pin="SK"/>
+<wire x1="461.01" y1="257.81" x2="461.01" y2="251.46" width="0.1524" layer="91"/>
+<label x="461.01" y="252.73" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
