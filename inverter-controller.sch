@@ -3000,54 +3000,6 @@ Texas Instruments and Fairchild Semiconductor
 </library>
 <library name="con-phoenix-381_l">
 <packages>
-<package name="MCV2">
-<description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 2-polig&lt;/b&gt;&lt;p&gt;
- (ohne Gegenstecker)</description>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="0.635" x2="-1.27" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="-3.175" x2="4.445" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="3.937" x2="-4.445" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-2.667" x2="-3.81" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.6035" x2="-2.413" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="-1.397" y1="2.6035" x2="-0.127" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="-3.302" y1="3.429" x2="-3.302" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="3.429" x2="-0.508" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="-3.302" y1="2.8575" x2="-2.413" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="2.8575" x2="-2.413" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="2.8575" x2="-1.397" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="-1.397" y1="2.8575" x2="-1.397" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-3.175" x2="4.445" y2="3.937" width="0.127" layer="21"/>
-<wire x1="3.81" y1="2.6035" x2="3.81" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="0.127" y1="2.6035" x2="1.397" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="2.413" y1="2.6035" x2="3.81" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="3.302" y1="3.429" x2="3.302" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="3.302" y1="2.8575" x2="2.413" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="2.413" y1="2.8575" x2="2.413" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="0.508" y1="3.429" x2="0.508" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="0.508" y1="2.8575" x2="1.397" y2="2.8575" width="0.127" layer="21"/>
-<wire x1="1.397" y1="2.8575" x2="1.397" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="1.27" y1="0.635" x2="2.54" y2="0.635" width="0.127" layer="51"/>
-<wire x1="2.54" y1="-0.635" x2="2.54" y2="0.635" width="0.127" layer="51"/>
-<wire x1="1.27" y1="-0.635" x2="2.54" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-3.302" y1="3.429" x2="-0.508" y2="3.429" width="0.127" layer="21"/>
-<wire x1="0.508" y1="3.429" x2="3.302" y2="3.429" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="3.937" x2="4.445" y2="3.937" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="2.6035" x2="-0.127" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="0.127" y1="2.6035" x2="0.127" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="-2.9845" y1="-2.667" x2="-0.8255" y2="-2.667" width="0.127" layer="21" curve="-99.078618"/>
-<wire x1="-2.9845" y1="-2.667" x2="-3.81" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="-0.8255" y1="-2.667" x2="-0.127" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="0.8255" y1="-2.667" x2="2.9845" y2="-2.667" width="0.127" layer="21" curve="-99.078618"/>
-<wire x1="0.8255" y1="-2.667" x2="0.127" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="2.9845" y1="-2.667" x2="3.81" y2="-2.667" width="0.127" layer="21"/>
-<pad name="1" x="-1.905" y="0" drill="1.27" diameter="1.905" shape="long" rot="R90"/>
-<pad name="2" x="1.905" y="0" drill="1.27" diameter="1.905" shape="long" rot="R90"/>
-<text x="-4.445" y="4.445" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.445" y="-5.334" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="MCV3">
 <description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 3-polig&lt;/b&gt;&lt;p&gt;
  (ohne Gegenstecker)</description>
@@ -3124,25 +3076,6 @@ Texas Instruments and Fairchild Semiconductor
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCV2" prefix="X">
-<description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 2polig&lt;/b&gt;&lt;p&gt;
- (ohne Gegenstecker)</description>
-<gates>
-<gate name=".1" symbol="MCST" x="2.54" y="2.54" addlevel="always"/>
-<gate name=".2" symbol="MCST" x="2.54" y="-2.54" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="MCV2">
-<connects>
-<connect gate=".1" pin="SK" pad="1"/>
-<connect gate=".2" pin="SK" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MCV3" prefix="X">
 <description>&lt;b&gt;Mini-Combicon 3.81mm vertikal 3polig&lt;/b&gt;&lt;p&gt;
  (ohne Gegenstecker)</description>
@@ -21973,6 +21906,51 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Andromeda" urn="urn:adsk.eagle:library:27258842">
+<description>Cennet Dincelir</description>
+<packages>
+<package name="CONNECTOR-SMD-2PIN" library_version="16" library_locally_modified="yes">
+<smd name="1" x="0" y="1.27" dx="2.54" dy="1.27" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-1.27" dx="2.54" dy="1.27" layer="1"/>
+<wire x1="-1.397" y1="2.032" x2="-1.397" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-1.397" y1="-2.032" x2="1.397" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="1.397" y1="-2.032" x2="1.397" y2="2.032" width="0.127" layer="21"/>
+<wire x1="1.397" y1="2.032" x2="-1.397" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-1.397" y1="2.032" x2="-1.397" y2="-2.032" width="0.127" layer="22"/>
+<wire x1="-1.397" y1="-2.032" x2="1.397" y2="-2.032" width="0.127" layer="22"/>
+<wire x1="1.397" y1="-2.032" x2="1.397" y2="2.032" width="0.127" layer="22"/>
+<wire x1="1.397" y1="2.032" x2="-1.397" y2="2.032" width="0.127" layer="22"/>
+<circle x="-1.016" y="0.254" radius="0.127" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CONNECTOR-SMD-2PIN" library_version="16" library_locally_modified="yes">
+<pin name="1" x="-5.08" y="2.54" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" length="short" direction="pas"/>
+<frame x1="-2.54" y1="-5.08" x2="5.08" y2="5.08" columns="8" rows="5" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CONNECTOR-SMD-2PIN" prefix="J" library_version="16" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="CONNECTOR-SMD-2PIN" x="-1.27" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONNECTOR-SMD-2PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22013,8 +21991,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="X1" library="con-phoenix-381_l" deviceset="MCV2" device="" value="0289-9066**15EDGVC-3.81-02P-14"/>
-<part name="X2" library="con-phoenix-381_l" deviceset="MCV2" device="" value="0289-9066**15EDGVC-3.81-02P-14"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22187,6 +22163,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="DC7" library="my_parts1" deviceset="RI-0512S/P_DC_DC_5V_12V" device=""/>
+<part name="J3" library="Andromeda" library_urn="urn:adsk.eagle:library:27258842" deviceset="CONNECTOR-SMD-2PIN" device=""/>
+<part name="J4" library="Andromeda" library_urn="urn:adsk.eagle:library:27258842" deviceset="CONNECTOR-SMD-2PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22337,18 +22315,6 @@ Opsiyonel olarak eklenmistir.</text>
 </instance>
 <instance part="P+1" gate="1" x="323.85" y="26.67" smashed="yes">
 <attribute name="VALUE" x="321.31" y="21.59" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="X1" gate=".1" x="342.9" y="19.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="350.52" y="17.145" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X1" gate=".2" x="342.9" y="-3.81" smashed="yes" rot="R180">
-<attribute name="NAME" x="350.52" y="-5.715" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate=".1" x="251.46" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="259.08" y="97.155" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate=".2" x="251.46" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="259.08" y="92.075" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="+3V7" gate="G$1" x="248.92" y="104.14" smashed="yes">
 <attribute name="VALUE" x="250.19" y="106.68" size="1.778" layer="96" rot="R270"/>
@@ -23044,6 +23010,14 @@ Opsiyonel olarak eklenmistir.</text>
 <attribute name="NAME" x="403.86" y="172.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="403.86" y="158.75" size="1.778" layer="96"/>
 </instance>
+<instance part="J3" gate="G$1" x="262.89" y="96.52" smashed="yes">
+<attribute name="VALUE" x="260.35" y="88.9" size="1.778" layer="96"/>
+<attribute name="NAME" x="260.35" y="101.6" size="1.778" layer="95"/>
+</instance>
+<instance part="J4" gate="G$1" x="350.52" y="6.35" smashed="yes">
+<attribute name="VALUE" x="347.98" y="-1.27" size="1.778" layer="96"/>
+<attribute name="NAME" x="347.98" y="11.43" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23234,11 +23208,11 @@ Opsiyonel olarak eklenmistir.</text>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="X2" gate=".1" pin="SK"/>
-<wire x1="251.46" y1="99.06" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="248.92" y1="99.06" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
 <label x="246.38" y="104.14" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="99.06" x2="257.81" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="66.04" y="241.3" size="1.778" layer="95" rot="R90"/>
@@ -23498,8 +23472,6 @@ Opsiyonel olarak eklenmistir.</text>
 <label x="87.63" y="27.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="X2" gate=".2" pin="SK"/>
-<wire x1="251.46" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="93.98" x2="245.11" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="90.17" x2="245.11" y2="93.98" width="0.1524" layer="91"/>
@@ -23509,6 +23481,8 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="248.92" y1="91.44" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <junction x="248.92" y="93.98"/>
 <pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="93.98" x2="257.81" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NTC2" class="0">
@@ -24380,7 +24354,6 @@ Opsiyonel olarak eklenmistir.</text>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="X1" gate=".1" pin="SK"/>
 <wire x1="340.36" y1="19.05" x2="341.63" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="19.05" x2="342.9" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="21.59" x2="341.63" y2="21.59" width="0.1524" layer="91"/>
@@ -24388,11 +24361,13 @@ Opsiyonel olarak eklenmistir.</text>
 <junction x="341.63" y="19.05"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="19.05" x2="342.9" y2="8.89" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="8.89" x2="345.44" y2="8.89" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="X1" gate=".2" pin="SK"/>
 <wire x1="340.36" y1="-3.81" x2="341.63" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="-3.81" x2="342.9" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="-6.35" x2="341.63" y2="-6.35" width="0.1524" layer="91"/>
@@ -24408,6 +24383,9 @@ Opsiyonel olarak eklenmistir.</text>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="3.81" x2="342.9" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="3.81" x2="342.9" y2="-3.81" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I_FAN" class="0">
