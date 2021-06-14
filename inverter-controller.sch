@@ -14943,12 +14943,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="+5V">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+3V3">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -14957,19 +14951,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+5V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="+3V3" prefix="+3V3">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -22173,7 +22154,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C52" library="rcl" deviceset="C-EU" device="050-055X075" value="0019-3020&quot;,&quot;CAP TH CER 470pF 3kV Y5P %10 85C F=7.5 D=8.5"/>
 <part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="1019-3168&quot;,&quot;CAP 0805 CER 2.2uF 16V %10 X7R (AbC)"/>
 <part name="L1" library="rcl" deviceset="R-EU_" device="R0805" value="1319-4025&quot;,&quot;INDUCTOR SMD 0805 4.7uH 500mA CL2012C-4R7M Core Master"/>
-<part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="+5V/4" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND4" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND4" device=""/>
@@ -22202,6 +22182,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22962,9 +22943,6 @@ Opsiyonel olarak eklenmistir.</text>
 <instance part="L1" gate="G$1" x="389.89" y="168.91" smashed="yes">
 <attribute name="NAME" x="391.16" y="172.4914" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="P+14" gate="1" x="381" y="173.99" smashed="yes">
-<attribute name="VALUE" x="378.46" y="168.91" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="SUPPLY5" gate="G$1" x="448.31" y="173.99" smashed="yes">
 <attribute name="VALUE" x="444.5" y="177.165" size="1.778" layer="96"/>
 </instance>
@@ -23061,6 +23039,9 @@ Opsiyonel olarak eklenmistir.</text>
 </instance>
 <instance part="+3V16" gate="G$1" x="462.28" y="187.96" smashed="yes">
 <attribute name="VALUE" x="459.74" y="182.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V17" gate="G$1" x="381" y="173.99" smashed="yes">
+<attribute name="VALUE" x="378.46" y="168.91" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -23358,6 +23339,16 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="462.28" y1="182.88" x2="466.09" y2="182.88" width="0.1524" layer="91"/>
 <label x="459.74" y="187.96" size="1.778" layer="95"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C51" gate="G$1" pin="1"/>
+<wire x1="381" y1="171.45" x2="381" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="381" y1="168.91" x2="381" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="384.81" y1="168.91" x2="381" y2="168.91" width="0.1524" layer="91"/>
+<junction x="381" y="168.91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<label x="378.46" y="175.26" size="1.778" layer="95"/>
+<pinref part="+3V17" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="HRTIM1_FLT1" class="0">
@@ -24507,18 +24498,6 @@ Opsiyonel olarak eklenmistir.</text>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="250.19" x2="83.82" y2="250.19" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="381" y1="171.45" x2="381" y2="168.91" width="0.1524" layer="91"/>
-<wire x1="381" y1="168.91" x2="381" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="384.81" y1="168.91" x2="381" y2="168.91" width="0.1524" layer="91"/>
-<junction x="381" y="168.91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<label x="378.46" y="175.26" size="1.778" layer="95"/>
-<pinref part="P+14" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="485G_PORT1" class="0">
