@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="11" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -16167,28 +16167,20 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:26640002" deviceset="DIODE-" device="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1"/>
 <part name="Q1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1"/>
 <part name="Q2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1"/>
-<part name="Q3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1"/>
 <part name="K1" library="Finder - 34.51.7.024.0010" deviceset="FINDER_34.51.7.024.0010" device="FINDER_34.51.7.024.0010_0_0"/>
 <part name="K2" library="Finder - 34.51.7.024.0010" deviceset="FINDER_34.51.7.024.0010" device="FINDER_34.51.7.024.0010_0_0"/>
-<part name="K3" library="Finder - 34.51.7.024.0010" deviceset="FINDER_34.51.7.024.0010" device="FINDER_34.51.7.024.0010_0_0"/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22R"/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22R"/>
-<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22R"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:26640002" deviceset="DIODE-" device="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1"/>
 <part name="D6" library="diode" library_urn="urn:adsk.eagle:library:26640002" deviceset="DIODE-" device="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1"/>
-<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:26640002" deviceset="DIODE-" device="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1"/>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
-<part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
-<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470R"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100R"/>
 <part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -16267,7 +16259,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="X6" library="con-leotronics" library_urn="urn:adsk.eagle:library:160" deviceset="1365-16" device="" package3d_urn="urn:adsk.eagle:package:7964/1"/>
 <part name="X5" library="con-leotronics" library_urn="urn:adsk.eagle:library:160" deviceset="1365-10" device="" package3d_urn="urn:adsk.eagle:package:7957/1"/>
 <part name="X7" library="con-leotronics" library_urn="urn:adsk.eagle:library:160" deviceset="1365-10" device="" package3d_urn="urn:adsk.eagle:package:7957/1"/>
@@ -16282,7 +16273,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J3" library="con-phoenix-381" library_urn="urn:adsk.eagle:library:27486877" deviceset="MCV3" device="" package3d_urn="urn:adsk.eagle:package:27487037/1"/>
 <part name="J4" library="con-phoenix-381" library_urn="urn:adsk.eagle:library:27486877" deviceset="MCV3" device="" package3d_urn="urn:adsk.eagle:package:27487037/1"/>
-<part name="J5" library="con-phoenix-381" library_urn="urn:adsk.eagle:library:27486877" deviceset="MCV3" device="" package3d_urn="urn:adsk.eagle:package:27487037/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -16892,18 +16882,11 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <attribute name="NAME" x="427.99" y="206.375" size="1.27" layer="95"/>
 <attribute name="VALUE" x="427.99" y="204.47" size="1.27" layer="96"/>
 </instance>
-<instance part="Q3" gate="G$1" x="466.09" y="205.74" smashed="yes">
-<attribute name="NAME" x="471.17" y="206.375" size="1.27" layer="95"/>
-<attribute name="VALUE" x="471.17" y="204.47" size="1.27" layer="96"/>
-</instance>
 <instance part="K1" gate="G$0" x="393.7" y="220.98" smashed="yes" rot="MR90">
 <attribute name="NAME" x="394.97" y="220.98" size="2.54" layer="95" rot="MR90" align="top-left"/>
 </instance>
 <instance part="K2" gate="G$0" x="435.61" y="220.98" smashed="yes" rot="MR90">
 <attribute name="NAME" x="436.88" y="220.98" size="2.54" layer="95" rot="MR90" align="top-left"/>
-</instance>
-<instance part="K3" gate="G$0" x="478.79" y="220.98" smashed="yes" rot="MR90">
-<attribute name="NAME" x="480.06" y="220.98" size="2.54" layer="95" rot="MR90" align="top-left"/>
 </instance>
 <instance part="R36" gate="G$1" x="362.966" y="203.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="364.236" y="205.5114" size="1.778" layer="95" rot="R180"/>
@@ -16921,22 +16904,11 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <attribute name="NAME" x="406.146" y="205.5114" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="408.686" y="206.502" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R40" gate="G$1" x="462.28" y="198.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="463.55" y="200.4314" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="466.09" y="201.422" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R41" gate="G$1" x="448.056" y="203.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="449.326" y="205.5114" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="451.866" y="206.502" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND32" gate="1" x="383.54" y="189.738" smashed="yes">
 <attribute name="VALUE" x="385.318" y="189.23" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND33" gate="1" x="425.45" y="189.738" smashed="yes">
 <attribute name="VALUE" x="427.228" y="189.23" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND34" gate="1" x="468.63" y="189.738" smashed="yes">
-<attribute name="VALUE" x="470.408" y="189.23" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D5" gate="1" x="377.19" y="226.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="375.4374" y="224.79" size="1.778" layer="95" rot="R90"/>
@@ -16945,10 +16917,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <instance part="D6" gate="1" x="419.1" y="226.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="417.3474" y="224.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="421.4114" y="228.6" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D7" gate="1" x="462.28" y="226.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="460.5274" y="224.79" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="464.5914" y="228.6" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED1" gate="G$1" x="372.11" y="220.98" smashed="yes">
 <attribute name="NAME" x="375.666" y="216.408" size="1.778" layer="95" rot="R90"/>
@@ -16965,14 +16933,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <instance part="R43" gate="G$1" x="414.02" y="231.394" smashed="yes" rot="R90">
 <attribute name="NAME" x="416.3314" y="230.124" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="417.322" y="227.584" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LED3" gate="G$1" x="457.2" y="220.98" smashed="yes">
-<attribute name="NAME" x="460.756" y="216.408" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="462.915" y="216.408" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R44" gate="G$1" x="457.2" y="231.394" smashed="yes" rot="R90">
-<attribute name="NAME" x="459.5114" y="230.124" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="460.502" y="227.584" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R45" gate="G$1" x="290.576" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="291.846" y="248.6914" size="1.778" layer="95" rot="R180"/>
@@ -17267,9 +17227,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <instance part="VDD3" gate="G$1" x="425.45" y="241.3" smashed="yes">
 <attribute name="VALUE" x="422.91" y="238.76" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VDD4" gate="G$1" x="468.63" y="241.3" smashed="yes">
-<attribute name="VALUE" x="466.09" y="238.76" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="X6" gate="-1" x="68.58" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.342" y="220.98" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="66.929" y="215.9" size="1.778" layer="96" rot="R90"/>
@@ -17461,15 +17418,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 </instance>
 <instance part="J4" gate="-3" x="416.56" y="260.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="415.925" y="270.51" size="1.524" layer="95" rot="R270"/>
-</instance>
-<instance part="J5" gate="-1" x="471.17" y="260.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="470.535" y="270.51" size="1.524" layer="95" rot="R270"/>
-</instance>
-<instance part="J5" gate="-2" x="466.09" y="260.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="465.455" y="270.51" size="1.524" layer="95" rot="R270"/>
-</instance>
-<instance part="J5" gate="-3" x="461.01" y="260.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="460.375" y="270.51" size="1.524" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -18499,16 +18447,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <label x="422.91" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="468.63" y1="200.66" x2="468.63" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="468.63" y1="198.12" x2="467.36" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="468.63" y1="198.12" x2="468.63" y2="192.278" width="0.1524" layer="91"/>
-<junction x="468.63" y="198.12"/>
-<pinref part="GND34" gate="1" pin="GND"/>
-<label x="466.09" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="306.07" y1="246.38" x2="308.61" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
@@ -19201,24 +19139,7 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <junction x="412.75" y="203.2"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="463.55" y1="203.2" x2="455.93" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="2"/>
-<wire x1="457.2" y1="198.12" x2="455.93" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="455.93" y1="198.12" x2="455.93" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="455.93" y1="203.2" x2="453.136" y2="203.2" width="0.1524" layer="91"/>
-<junction x="455.93" y="203.2"/>
-<pinref part="R41" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="RELAY3" class="0">
-<segment>
-<pinref part="R41" gate="G$1" pin="2"/>
-<wire x1="442.976" y1="203.2" x2="434.34" y2="203.2" width="0.1524" layer="91"/>
-<label x="434.34" y="203.2" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB13"/>
 <wire x1="110.49" y1="55.88" x2="130.81" y2="55.88" width="0.1524" layer="91"/>
@@ -19239,22 +19160,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <wire x1="414.02" y1="215.9" x2="414.02" y2="214.63" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="214.63" x2="419.1" y2="214.63" width="0.1524" layer="91"/>
 <junction x="419.1" y="214.63"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="K3" gate="G$0" pin="A1"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="468.63" y1="215.9" x2="468.63" y2="214.63" width="0.1524" layer="91"/>
-<pinref part="D7" gate="1" pin="A"/>
-<wire x1="468.63" y1="214.63" x2="468.63" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="223.52" x2="462.28" y2="214.63" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="214.63" x2="468.63" y2="214.63" width="0.1524" layer="91"/>
-<junction x="468.63" y="214.63"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="457.2" y1="215.9" x2="457.2" y2="214.63" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="214.63" x2="462.28" y2="214.63" width="0.1524" layer="91"/>
-<junction x="462.28" y="214.63"/>
 </segment>
 </net>
 <net name="NO1" class="0">
@@ -19309,32 +19214,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <label x="426.72" y="252.73" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="COM3" class="0">
-<segment>
-<pinref part="K3" gate="G$0" pin="11"/>
-<wire x1="473.71" y1="218.44" x2="473.71" y2="212.09" width="0.1524" layer="91"/>
-<label x="473.71" y="212.09" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="J5" gate="-1" pin="SK"/>
-<wire x1="471.17" y1="257.81" x2="471.17" y2="251.46" width="0.1524" layer="91"/>
-<label x="471.17" y="252.73" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="NO3" class="0">
-<segment>
-<pinref part="K3" gate="G$0" pin="14"/>
-<wire x1="473.71" y1="233.68" x2="473.71" y2="237.49" width="0.1524" layer="91"/>
-<label x="473.71" y="233.68" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="NC3" class="0">
-<segment>
-<pinref part="K3" gate="G$0" pin="12"/>
-<wire x1="476.25" y1="233.68" x2="476.25" y2="237.49" width="0.1524" layer="91"/>
-<label x="476.25" y="233.68" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="LED2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC15-OSC32_OUT"/>
@@ -19377,13 +19256,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <pinref part="R43" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="414.02" y1="226.314" x2="414.02" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="R44" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="457.2" y1="226.314" x2="457.2" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -19774,21 +19646,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <junction x="419.1" y="237.49"/>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
 </segment>
-<segment>
-<pinref part="K3" gate="G$0" pin="A2"/>
-<wire x1="468.63" y1="238.76" x2="468.63" y2="237.49" width="0.1524" layer="91"/>
-<pinref part="D7" gate="1" pin="C"/>
-<wire x1="468.63" y1="237.49" x2="468.63" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="228.6" x2="462.28" y2="237.49" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="237.49" x2="468.63" y2="237.49" width="0.1524" layer="91"/>
-<junction x="468.63" y="237.49"/>
-<label x="466.09" y="243.84" size="1.778" layer="95"/>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="457.2" y1="236.474" x2="457.2" y2="237.49" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="237.49" x2="462.28" y2="237.49" width="0.1524" layer="91"/>
-<junction x="462.28" y="237.49"/>
-<pinref part="VDD4" gate="G$1" pin="VDD"/>
-</segment>
 </net>
 <net name="RELAY_EN" class="0">
 <segment>
@@ -19849,11 +19706,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <wire x1="421.64" y1="257.81" x2="421.64" y2="251.46" width="0.1524" layer="91"/>
 <label x="421.64" y="252.73" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="J5" gate="-2" pin="SK"/>
-<wire x1="466.09" y1="257.81" x2="466.09" y2="251.46" width="0.1524" layer="91"/>
-<label x="466.09" y="252.73" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="NO" class="0">
 <segment>
@@ -19865,11 +19717,6 @@ MCV 1,5/3-G-3,81 Artikel-Nr. 1803439</description>
 <pinref part="J4" gate="-3" pin="SK"/>
 <wire x1="416.56" y1="257.81" x2="416.56" y2="251.46" width="0.1524" layer="91"/>
 <label x="416.56" y="252.73" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="J5" gate="-3" pin="SK"/>
-<wire x1="461.01" y1="257.81" x2="461.01" y2="251.46" width="0.1524" layer="91"/>
-<label x="461.01" y="252.73" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
