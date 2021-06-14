@@ -3776,9 +3776,6 @@ design rules under a new name.</description>
 <wire x1="-74.19" y1="106.68" x2="-67.84" y2="106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.54" y1="106.68" x2="-74.19" y2="106.68" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SPI1_SCK">
-<contactref element="J1" pad="6"/>
-</signal>
 <signal name="NRST">
 <contactref element="IC1" pad="7"/>
 <contactref element="J1" pad="5"/>
@@ -4262,14 +4259,6 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="A"/>
 <wire x1="-131.1362" y1="-430.12" x2="-136.76" y2="-430.53" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="FAN2_EN">
-<contactref element="IC1" pad="34"/>
-<contactref element="J1" pad="4"/>
-<wire x1="13.648" y1="55.76" x2="13.83" y2="84.16" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="RELAY_EN">
-<contactref element="J1" pad="2"/>
-</signal>
 <signal name="N$35">
 <contactref element="LED8" pad="A"/>
 <contactref element="R36" pad="2"/>
@@ -4396,10 +4385,10 @@ design rules under a new name.</description>
 <contactref element="IC10" pad="4"/>
 <contactref element="IC10" pad="5"/>
 <contactref element="TP5" pad="TP"/>
-<contactref element="IC1" pad="39"/>
+<contactref element="IC1" pad="41"/>
 <wire x1="-91.365" y1="-593.1" x2="-92.635" y2="-593.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-79" y1="-718" x2="-91.365" y2="-593.1" width="0" layer="19" extent="1-1"/>
-<wire x1="11.16" y1="53.272" x2="-91.365" y2="-593.1" width="0" layer="19" extent="1-16"/>
+<wire x1="10.16" y1="53.272" x2="-91.365" y2="-593.1" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RS485_TX">
 <contactref element="IC1" pad="21"/>
@@ -4414,6 +4403,21 @@ design rules under a new name.</description>
 <contactref element="TP4" pad="TP"/>
 <wire x1="-83.5" y1="-718" x2="-93.905" y2="-593.1" width="0" layer="19" extent="1-1"/>
 <wire x1="11.16" y1="61.748" x2="-93.905" y2="-593.1" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="SWO">
+<contactref element="IC1" pad="39"/>
+<contactref element="J1" pad="6"/>
+<wire x1="11.16" y1="53.272" x2="15.83" y2="84.16" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="SWDIO">
+<contactref element="IC1" pad="34"/>
+<contactref element="J1" pad="4"/>
+<wire x1="13.648" y1="55.76" x2="13.83" y2="84.16" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="SWCLK">
+<contactref element="IC1" pad="37"/>
+<contactref element="J1" pad="2"/>
+<wire x1="12.16" y1="53.272" x2="11.83" y2="84.16" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

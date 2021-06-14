@@ -22212,9 +22212,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="7.62" y="264.16" size="5.08" layer="125">Main Board Connector</text>
 <text x="5.08" y="149.86" size="5.08" layer="125">uController</text>
 <text x="218.44" y="110.49" size="5.08" layer="125">Temperature Sensors</text>
-<text x="19.05" y="134.62" size="1.9304" layer="125" rot="R90">/SWDIO</text>
-<text x="21.59" y="134.62" size="1.9304" layer="125" rot="R90">/SWO</text>
-<text x="16.51" y="134.62" size="1.4224" layer="125" rot="R90">/SWCLK</text>
 <text x="133.35" y="71.12" size="1.778" layer="125">CHB2</text>
 <text x="133.35" y="68.58" size="1.778" layer="125">CHB1</text>
 <text x="133.35" y="66.04" size="1.778" layer="125">CHA2</text>
@@ -23373,13 +23370,6 @@ Opsiyonel olarak eklenmistir.</text>
 <label x="294.64" y="251.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI1_SCK" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="21.59" y1="120.65" x2="21.59" y2="134.62" width="0.1524" layer="91"/>
-<label x="21.59" y="121.92" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="NRST" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="NRST"/>
@@ -23478,11 +23468,8 @@ Opsiyonel olarak eklenmistir.</text>
 </segment>
 <segment>
 <label x="223.52" y="165.1" size="1.778" layer="95"/>
-<wire x1="229.87" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="229.87" y1="165.1" x2="229.87" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="229.87" y1="165.1" x2="232.41" y2="165.1" width="0.1524" layer="91"/>
-<junction x="229.87" y="165.1"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="248.92" x2="33.02" y2="250.19" width="0.1524" layer="91"/>
@@ -24460,25 +24447,6 @@ Opsiyonel olarak eklenmistir.</text>
 <pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="FAN2_EN" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA13"/>
-<wire x1="110.49" y1="76.2" x2="130.81" y2="76.2" width="0.1524" layer="91"/>
-<label x="113.03" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="19.05" y1="120.65" x2="19.05" y2="134.62" width="0.1524" layer="91"/>
-<label x="19.05" y="121.92" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="RELAY_EN" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="16.51" y1="120.65" x2="16.51" y2="134.62" width="0.1524" layer="91"/>
-<label x="16.51" y="121.92" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="A"/>
@@ -24729,9 +24697,9 @@ Opsiyonel olarak eklenmistir.</text>
 <pinref part="TP5" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB3"/>
-<wire x1="97.79" y1="99.06" x2="97.79" y2="114.3" width="0.1524" layer="91"/>
-<label x="97.79" y="100.33" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC1" gate="G$1" pin="PB5"/>
+<wire x1="92.71" y1="99.06" x2="92.71" y2="114.3" width="0.1524" layer="91"/>
+<label x="92.71" y="100.33" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RS485_TX" class="0">
@@ -24758,6 +24726,42 @@ Opsiyonel olarak eklenmistir.</text>
 <label x="379.73" y="223.52" size="1.778" layer="95"/>
 <pinref part="IC10" gate="G$1" pin="R"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="SWO" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB3"/>
+<wire x1="97.79" y1="99.06" x2="97.79" y2="114.3" width="0.1524" layer="91"/>
+<label x="97.79" y="100.33" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="21.59" y1="120.65" x2="21.59" y2="134.62" width="0.1524" layer="91"/>
+<label x="21.59" y="121.92" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA13"/>
+<wire x1="110.49" y1="76.2" x2="130.81" y2="76.2" width="0.1524" layer="91"/>
+<label x="113.03" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="19.05" y1="120.65" x2="19.05" y2="134.62" width="0.1524" layer="91"/>
+<label x="19.05" y="121.92" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA14"/>
+<wire x1="102.87" y1="99.06" x2="102.87" y2="114.3" width="0.1524" layer="91"/>
+<label x="102.87" y="100.33" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="16.51" y1="120.65" x2="16.51" y2="134.62" width="0.1524" layer="91"/>
+<label x="16.51" y="121.92" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
