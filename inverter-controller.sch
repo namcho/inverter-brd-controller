@@ -19505,22 +19505,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="-4.09" y="4.15" size="1.778" layer="25">&gt;NAME</text>
 <text x="-4.62" y="1.77" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="RFMM-0505S">
-<text x="-10" y="3.77" size="1.27" layer="25">&gt;NAME</text>
-<text x="-10.12" y="-5.02" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-5.63" y="-0.166" size="1.27" layer="21">-</text>
-<text x="-8.46" y="-0.426" size="1.27" layer="21">+</text>
-<wire x1="-9.825" y1="-3.525" x2="9.825" y2="-3.525" width="0.3048" layer="21"/>
-<wire x1="9.825" y1="-3.525" x2="9.825" y2="3.525" width="0.3048" layer="21"/>
-<wire x1="9.825" y1="3.525" x2="-9.825" y2="3.525" width="0.3048" layer="21"/>
-<wire x1="-9.825" y1="3.525" x2="-9.825" y2="-3.525" width="0.3048" layer="21"/>
-<pad name="1" x="-7.825" y="2.255" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="2" x="-5.285" y="2.255" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="7" x="7.415" y="2.255" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="5" x="2.335" y="2.255" drill="1" diameter="2.1844" rot="R90"/>
-<text x="0.62" y="-0.47" size="1.27" layer="21">Out-</text>
-<text x="5.57" y="-0.42" size="1.27" layer="21">Out+</text>
-</package>
 <package name="ISO3082">
 <wire x1="5.19" y1="-3.7" x2="-5.19" y2="-3.7" width="0.2" layer="21"/>
 <wire x1="-5.19" y1="-3.7" x2="-5.19" y2="3.7" width="0.2" layer="21"/>
@@ -19577,18 +19561,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pin name="3" x="8.89" y="-2.54" length="short" rot="R180"/>
 <pin name="4" x="8.89" y="1.27" length="short" rot="R180"/>
 </symbol>
-<symbol name="RFMM-0505S">
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VIN+" x="-12.7" y="5.08" length="short" direction="in"/>
-<pin name="VIN-" x="-12.7" y="0" length="short" direction="pwr"/>
-<pin name="VOUT+" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="VOUT-" x="12.7" y="0" length="short" direction="out" rot="R180"/>
-</symbol>
 <symbol name="ISO3082">
 <wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
@@ -19626,24 +19598,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <connect gate="1" pin="2" pad="2"/>
 <connect gate="1" pin="3" pad="3"/>
 <connect gate="1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RFMM-0505S" prefix="Q">
-<gates>
-<gate name="G$1" symbol="RFMM-0505S" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="RFMM-0505S">
-<connects>
-<connect gate="G$1" pin="VIN+" pad="1"/>
-<connect gate="G$1" pin="VIN-" pad="2"/>
-<connect gate="G$1" pin="VOUT+" pad="7"/>
-<connect gate="G$1" pin="VOUT-" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21969,6 +21923,56 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="my_parts1">
+<packages>
+<package name="RI-0512S/P_DC_DC_5V_12V">
+<pad name="1-IN" x="-3.81" y="1.27" drill="1.1" shape="square"/>
+<pad name="2+IN" x="-1.27" y="1.27" drill="1.1" shape="square"/>
+<pad name="3-VOUT" x="1.27" y="1.27" drill="1.1" shape="square"/>
+<pad name="4+VOU" x="3.81" y="1.27" drill="1.1" shape="square"/>
+<wire x1="-5.84" y1="7.6" x2="-5.84" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.84" y1="0" x2="5.84" y2="0" width="0.127" layer="21"/>
+<wire x1="5.84" y1="0" x2="5.84" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-5.84" y1="7.6" x2="5.84" y2="7.6" width="0.127" layer="21"/>
+<text x="-5.93" y="7.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.07" y="-1.38" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RI-0512S/P_DC_DC_5V_12V">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2.VIN+" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="1.VIN-" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="4.VOUT+" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="3.VOUT-" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RI-0512S/P_DC_DC_5V_12V" prefix="DC">
+<gates>
+<gate name="G$1" symbol="RI-0512S/P_DC_DC_5V_12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RI-0512S/P_DC_DC_5V_12V">
+<connects>
+<connect gate="G$1" pin="1.VIN-" pad="1-IN"/>
+<connect gate="G$1" pin="2.VIN+" pad="2+IN"/>
+<connect gate="G$1" pin="3.VOUT-" pad="3-VOUT"/>
+<connect gate="G$1" pin="4.VOUT+" pad="4+VOU"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22149,7 +22153,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R65" library="rcl" deviceset="R-EU_" device="R0603" value="1029-2003**RES 0603 10R %1"/>
 <part name="X3" library="con-phoenix-381_l" deviceset="MCV3" device="" value="0289-9068**15EDGVC-3.81-03P-14"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="Q17" library="enko" deviceset="RFMM-0505S" device="" value="1039-2335&quot;,&quot;DC-DC Converter 5V to 5V 1W RFMM-0505S"/>
 <part name="C51" library="rcl" deviceset="C-EU" device="C0805" value="1019-3168&quot;,&quot;CAP 0805 CER 2.2uF 16V %10 X7R (AbC)"/>
 <part name="C52" library="rcl" deviceset="C-EU" device="050-055X075" value="0019-3020&quot;,&quot;CAP TH CER 470pF 3kV Y5P %10 85C F=7.5 D=8.5"/>
 <part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="1019-3168&quot;,&quot;CAP 0805 CER 2.2uF 16V %10 X7R (AbC)"/>
@@ -22183,6 +22186,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
+<part name="DC7" library="my_parts1" deviceset="RI-0512S/P_DC_DC_5V_12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22924,10 +22928,6 @@ Opsiyonel olarak eklenmistir.</text>
 <instance part="+3V8" gate="G$1" x="367.03" y="236.22" smashed="yes">
 <attribute name="VALUE" x="364.49" y="231.14" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q17" gate="G$1" x="414.02" y="163.83" smashed="yes">
-<attribute name="NAME" x="403.86" y="172.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="403.86" y="158.75" size="1.778" layer="96"/>
-</instance>
 <instance part="C51" gate="G$1" x="381" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="376.301" y="166.116" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -23039,6 +23039,10 @@ Opsiyonel olarak eklenmistir.</text>
 </instance>
 <instance part="+3V17" gate="G$1" x="381" y="173.99" smashed="yes">
 <attribute name="VALUE" x="378.46" y="168.91" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DC7" gate="G$1" x="414.02" y="166.37" smashed="yes">
+<attribute name="NAME" x="403.86" y="172.72" size="1.778" layer="95"/>
+<attribute name="VALUE" x="403.86" y="158.75" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23525,13 +23529,6 @@ Opsiyonel olarak eklenmistir.</text>
 <junction x="85.09" y="124.46"/>
 </segment>
 </net>
-<net name="USART1_DIR" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC13"/>
-<wire x1="67.31" y1="78.74" x2="49.53" y2="78.74" width="0.1524" layer="91"/>
-<label x="50.8" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -23940,12 +23937,12 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="381" y1="158.75" x2="381" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="381" y1="158.75" x2="398.78" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="158.75" x2="398.78" y2="163.83" width="0.1524" layer="91"/>
-<pinref part="Q17" gate="G$1" pin="VIN-"/>
 <wire x1="398.78" y1="163.83" x2="401.32" y2="163.83" width="0.1524" layer="91"/>
 <label x="378.46" y="149.86" size="1.778" layer="95"/>
 <junction x="381" y="158.75"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="381" y1="154.94" x2="381" y2="158.75" width="0.1524" layer="91"/>
+<pinref part="DC7" gate="G$1" pin="1.VIN-"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -24367,13 +24364,6 @@ Opsiyonel olarak eklenmistir.</text>
 <pinref part="C45" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="RELAY3" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB13"/>
-<wire x1="110.49" y1="55.88" x2="130.81" y2="55.88" width="0.1524" layer="91"/>
-<label x="113.03" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="LED2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC15-OSC32_OUT"/>
@@ -24483,7 +24473,6 @@ Opsiyonel olarak eklenmistir.</text>
 </net>
 <net name="N$80" class="0">
 <segment>
-<pinref part="Q17" gate="G$1" pin="VIN+"/>
 <wire x1="394.97" y1="168.91" x2="398.78" y2="168.91" width="0.1524" layer="91"/>
 <pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="398.78" y1="168.91" x2="401.32" y2="168.91" width="0.1524" layer="91"/>
@@ -24491,11 +24480,11 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="398.78" y1="176.53" x2="398.78" y2="168.91" width="0.1524" layer="91"/>
 <junction x="398.78" y="168.91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="DC7" gate="G$1" pin="2.VIN+"/>
 </segment>
 </net>
 <net name="RS485_ISO_5V" class="0">
 <segment>
-<pinref part="Q17" gate="G$1" pin="VOUT+"/>
 <pinref part="SUPPLY5" gate="G$1" pin="+5V/4"/>
 <wire x1="426.72" y1="168.91" x2="431.8" y2="168.91" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="168.91" x2="448.31" y2="168.91" width="0.1524" layer="91"/>
@@ -24507,6 +24496,7 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="416.56" y1="176.53" x2="431.8" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="176.53" x2="431.8" y2="168.91" width="0.1524" layer="91"/>
 <label x="439.42" y="177.8" size="1.778" layer="95"/>
+<pinref part="DC7" gate="G$1" pin="4.VOUT+"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="+5V/4"/>
@@ -24521,7 +24511,6 @@ Opsiyonel olarak eklenmistir.</text>
 </net>
 <net name="RS485_ISO_GND" class="0">
 <segment>
-<pinref part="Q17" gate="G$1" pin="VOUT-"/>
 <wire x1="426.72" y1="163.83" x2="427.99" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="427.99" y1="163.83" x2="427.99" y2="158.75" width="0.1524" layer="91"/>
 <pinref part="C53" gate="G$1" pin="2"/>
@@ -24531,6 +24520,7 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="431.8" y1="157.48" x2="431.8" y2="158.75" width="0.1524" layer="91"/>
 <junction x="431.8" y="158.75"/>
 <label x="434.34" y="158.75" size="1.778" layer="95"/>
+<pinref part="DC7" gate="G$1" pin="3.VOUT-"/>
 </segment>
 <segment>
 <pinref part="IC10" gate="G$1" pin="GND2-2"/>
