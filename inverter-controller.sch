@@ -23541,6 +23541,36 @@ Opsiyonel olarak eklenmistir.</text>
 </instance>
 </instances>
 <busses>
+<bus name="B$1">
+<segment>
+<wire x1="250.19" y1="121.92" x2="273.05" y2="121.92" width="0.762" layer="92"/>
+<wire x1="273.05" y1="121.92" x2="273.05" y2="55.88" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="B$2">
+<segment>
+<wire x1="250.19" y1="275.59" x2="281.94" y2="275.59" width="0.762" layer="92"/>
+<wire x1="281.94" y1="275.59" x2="281.94" y2="129.54" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="B$3">
+<segment>
+<wire x1="436.88" y1="276.86" x2="467.36" y2="276.86" width="0.762" layer="92"/>
+<wire x1="467.36" y1="276.86" x2="467.36" y2="127" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="B$4">
+<segment>
+<wire x1="78.74" y1="270.51" x2="105.41" y2="270.51" width="0.762" layer="92"/>
+<wire x1="105.41" y1="270.51" x2="105.41" y2="168.91" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="B$5">
+<segment>
+<wire x1="66.04" y1="157.48" x2="96.52" y2="157.48" width="0.762" layer="92"/>
+<wire x1="96.52" y1="157.48" x2="96.52" y2="-1.27" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="OSC1" class="0">
