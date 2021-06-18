@@ -22821,17 +22821,15 @@ Opsiyonel olarak eklenmistir.</text>
 <attribute name="NAME" x="106.68" y="99.06" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="106.68" y="96.52" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="TP1" gate="G$1" x="77.47" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="77.47" y="27.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="76.2" y="26.67" size="1.778" layer="97" rot="R180"/>
+<instance part="TP1" gate="G$1" x="77.47" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.47" y="17.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="76.2" y="16.51" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP2" gate="G$1" x="80.01" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="80.01" y="27.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="78.74" y="26.67" size="1.778" layer="97" rot="R180"/>
+<instance part="TP2" gate="G$1" x="80.01" y="15.24" smashed="yes" rot="R180">
+<attribute name="TP_SIGNAL_NAME" x="78.74" y="16.51" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP3" gate="G$1" x="82.55" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="82.55" y="27.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="81.28" y="26.67" size="1.778" layer="97" rot="R180"/>
+<instance part="TP3" gate="G$1" x="82.55" y="15.24" smashed="yes" rot="R180">
+<attribute name="TP_SIGNAL_NAME" x="81.28" y="16.51" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="31.75" y="119.38" smashed="yes" rot="R270">
 <attribute name="VALUE" x="34.29" y="118.11" size="1.778" layer="96" rot="R180"/>
@@ -23819,22 +23817,8 @@ Opsiyonel olarak eklenmistir.</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA4"/>
-<wire x1="77.47" y1="35.56" x2="77.47" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="35.56" x2="77.47" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA5"/>
-<wire x1="80.01" y1="35.56" x2="80.01" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA6"/>
-<wire x1="82.55" y1="35.56" x2="82.55" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="VA" class="0">
@@ -25001,12 +24985,24 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="55.88" y1="238.76" x2="55.88" y2="247.65" width="0.1524" layer="91"/>
 <pinref part="X6" gate="-10" pin="S"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA6"/>
+<wire x1="82.55" y1="35.56" x2="82.55" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<label x="82.55" y="17.78" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="DRV2_EN" class="0">
 <segment>
 <label x="63.5" y="238.76" size="1.778" layer="95" rot="R90"/>
 <wire x1="63.5" y1="238.76" x2="63.5" y2="250.19" width="0.1524" layer="91"/>
 <pinref part="X6" gate="-4" pin="S"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA5"/>
+<wire x1="80.01" y1="35.56" x2="80.01" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<label x="80.01" y="17.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VIN_2" class="0">
