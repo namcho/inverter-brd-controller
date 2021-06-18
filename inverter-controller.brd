@@ -174,7 +174,7 @@
 <wire x1="18.5" y1="67.5" x2="18.5" y2="8" width="0.2" layer="20"/>
 <wire x1="18.5" y1="8" x2="28" y2="8" width="0.2" layer="20"/>
 <wire x1="28" y1="8" x2="28" y2="67.5" width="0.2" layer="20"/>
-<wire x1="47" y1="78" x2="47" y2="4.5" width="0.2" layer="20"/>
+<wire x1="47" y1="78" x2="47" y2="8.3" width="0.2" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="86.8" width="0.2" layer="20"/>
 <wire x1="18.5" y1="67.5" x2="28" y2="67.5" width="0.2" layer="20"/>
 <wire x1="96.5" y1="78" x2="47" y2="78" width="0.2" layer="20"/>
@@ -183,8 +183,7 @@
 <wire x1="0" y1="0" x2="96.5" y2="0" width="0.2" layer="20"/>
 <wire x1="96.5" y1="0" x2="96.5" y2="8.3" width="0.2" layer="20"/>
 <wire x1="96.5" y1="8.3" x2="86.5" y2="8.3" width="0.2" layer="20"/>
-<wire x1="86.5" y1="8.3" x2="86.5" y2="4.5" width="0.2" layer="20"/>
-<wire x1="86.5" y1="4.5" x2="47" y2="4.5" width="0.2" layer="20"/>
+<wire x1="86.5" y1="8.3" x2="47" y2="8.3" width="0.2" layer="20"/>
 </plain>
 <libraries>
 <library name="Diode" urn="urn:adsk.eagle:library:16378169">
