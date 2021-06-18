@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -32,11 +32,11 @@
 <layer number="22" name="bPlace" color="35" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -52,12 +52,12 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -2468,7 +2468,7 @@ design rules under a new name.</description>
 <attribute name="FORWARD_CURRENT" value="" x="58.31" y="135.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="58.31" y="135.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="58.31" y="135.74" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.86" y="57" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="3.37" y="53.97" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="58.31" y="135.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="58.31" y="135.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="REVERSE_VOLTAGE" value="" x="58.31" y="135.74" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2480,15 +2480,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="7.08" y="57" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:26640002" package="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1" value="" x="5.68" y="28.19" smashed="yes">
-<attribute name="NAME" x="4.156" y="29.333" size="1.27" layer="25"/>
+<attribute name="NAME" x="7.286" y="29.593" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="4.156" y="25.777" size="1.27" layer="27"/>
 </element>
 <element name="D3" library="diode" library_urn="urn:adsk.eagle:library:26640002" package="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1" value="" x="11.96" y="28.21" smashed="yes">
-<attribute name="NAME" x="10.436" y="29.353" size="1.27" layer="25"/>
+<attribute name="NAME" x="13.536" y="29.633" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="10.436" y="25.797" size="1.27" layer="27"/>
 </element>
 <element name="D4" library="diode" library_urn="urn:adsk.eagle:library:26640002" package="SOD80C" package3d_urn="urn:adsk.eagle:package:26640360/1" value="" x="9.03" y="15.69" smashed="yes">
-<attribute name="NAME" x="7.506" y="16.833" size="1.27" layer="25"/>
+<attribute name="NAME" x="5.857" y="15.676" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.506" y="13.277" size="1.27" layer="27"/>
 </element>
 <element name="IC1" library="STM32F334C8T6" package="QFP50P900X900X160-48N" value="STM32F334C8T6" x="22.615646875" y="77.36535" smashed="yes" rot="R315">
@@ -2500,7 +2500,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="STM32F334C8T6" x="26.20775" y="27.075921875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="511-STM32F334C8T6" x="26.20775" y="27.075921875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F334C8T6/?qs=9MuLHSklicqt3Oowy%252Bwgaw%3D%3D" x="26.20775" y="27.075921875" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="18.12551875" y="72.875221875" size="1.27" layer="25" rot="R315" align="center"/>
+<attribute name="NAME" x="17.104778125" y="76.93551875" size="0.8128" layer="25" rot="R45" align="center"/>
 <attribute name="VALUE" x="25.309721875" y="81.855475" size="1.27" layer="27" rot="R315" align="center"/>
 </element>
 <element name="IC2" library="SY7152ABC" package="SOT95P285X140-6N" value="SY7152ABC" x="8.49" y="58.53" smashed="yes">
@@ -2512,16 +2512,16 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SY7152ABC" x="37.7" y="-53.23" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="37.7" y="-53.23" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="37.7" y="-53.23" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.49" y="58.53" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="10.22" y="56.81" size="0.8128" layer="25" align="center"/>
 <attribute name="VALUE" x="8.49" y="58.53" size="1.27" layer="27" align="center"/>
 </element>
 <element name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" package="MSOP08" package3d_urn="urn:adsk.eagle:package:16453/1" value="LMV358MMX" x="8.77" y="22.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.23" y="24.832" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="6.01" y="24.312" size="0.8128" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="8" x="-21.71" y="6.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="6.23" y="19.498" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" package="MSOP08" package3d_urn="urn:adsk.eagle:package:16453/1" value="LMV358MMX" x="12.25" y="11.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.71" y="13.052" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="14.35" y="8.932" size="0.8128" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="8" x="-18.23" y="-14.38" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.71" y="7.718" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -2530,536 +2530,536 @@ design rules under a new name.</description>
 <attribute name="DIGI_KEY_PART_NUMBER" value="732-5315-ND" x="-36.02" y="137.12" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Wurth Electronics Inc." x="-36.02" y="137.12" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="61300211121" x="-36.02" y="137.12" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="37.132" y="81.621" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="33.632" y="86.081" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="37.132" y="87.463" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L4" library="wuerth-elektronik" package="WE-PD2_S" value="1319-4102**INDUCTOR POWER 22UH 4X4X1.8MM SMD" x="6.2" y="63.17" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.39" y="65.71" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.2" y="65.94" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="8.74" y="65.71" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="11.26" y="74.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.276" y="75.385" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="12.286" y="75.365" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="19" x="-94.15" y="-35.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="9.355" y="75.385" size="1" layer="37" rot="R270"/>
 <attribute name="VALUE" x="10.498" y="75.385" size="0.0254" layer="27" rot="R270"/>
 </element>
 <element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="10.98" y="72.94" smashed="yes">
-<attribute name="NAME" x="10.345" y="73.956" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="10.815" y="71.296" size="0.8128" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="19" x="27.49" y="-38.82" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="10.345" y="71.035" size="1" layer="37"/>
 <attribute name="VALUE" x="10.345" y="72.178" size="0.0254" layer="27"/>
 </element>
 <element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="9.76" y="71.69" smashed="yes">
-<attribute name="NAME" x="9.125" y="72.706" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="6.775" y="71.776" size="0.8128" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="19" x="31.35" y="-40.07" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="9.125" y="69.785" size="1" layer="37"/>
 <attribute name="VALUE" x="9.125" y="70.928" size="0.0254" layer="27"/>
 </element>
 <element name="Y1" library="enko" library_urn="urn:adsk.eagle:library:26809666" package="NX2016SA-32M" package3d_urn="urn:adsk.eagle:package:26812247/2" value="NX2016SA-32M" x="20.769484375" y="84.363325" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.699484375" y="81.823328125" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="21.866671875" y="86.479484375" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="23.50948125" y="81.823328125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="X6" library="con-leotronics" library_urn="urn:adsk.eagle:library:160" package="1365-16" package3d_urn="urn:adsk.eagle:package:7964/1" value="1365-16" x="9.35" y="37.68" locked="yes" smashed="yes" rot="MR90">
 <attribute name="MF" value="" x="9.35" y="37.68" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="9.35" y="37.68" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="6.175" y="31.965" locked="yes" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="6.175" y="31.965" locked="yes" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="OC_FARNELL" value="unknown" x="9.35" y="37.68" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="9.35" y="37.68" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULARITY" value="0" x="9.35" y="37.68" locked="yes" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="5.54" y="44.665" locked="yes" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="43.77" y="83.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.04" y="81.95" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="45.15" y="84.82" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="45.04" y="85.76" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="LED12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="53.96" y="82.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.69" y="84.19" size="1.27" layer="25"/>
+<attribute name="NAME" x="52.24" y="83.78" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="52.69" y="80.38" size="1.27" layer="27"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="27.69" y="70.01" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.8013" y="71.28" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="37.88" y="72.0413" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="25.785" y="71.28" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="29.16" y="70.01" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.2713" y="71.28" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="37.88" y="71.1413" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="27.255" y="71.28" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="7.9" y="75.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.0113" y="76.41" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="11.2287" y="75.68" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="5.995" y="76.41" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C23" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="9.48" y="75.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.5913" y="76.41" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="12.0587" y="75.68" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="7.575" y="76.41" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="9.46" y="78.47" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.3487" y="77.2" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="12.0587" y="78.04" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="11.365" y="77.2" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C25" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="7.87" y="78.47" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.7587" y="77.2" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="11.2087" y="78.04" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="9.775" y="77.2" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="15.29" y="71.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.56" y="70.3887" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="14.25" y="74.1713" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="16.56" y="73.405" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="15.29" y="70.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.56" y="68.9287" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="14.25" y="73.3013" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="16.56" y="71.945" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C28" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="5.92" y="75.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.0313" y="76.41" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="6.4887" y="76.74" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="4.015" y="76.41" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C29" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="4.43" y="75.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.5413" y="76.41" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="4.6987" y="76.74" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="2.525" y="76.41" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C30" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="23.02" y="70.01" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.1313" y="71.28" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="37.88" y="74.6513" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="21.115" y="71.28" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="24.61" y="70.01" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.7213" y="71.28" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="37.88" y="73.8013" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="22.705" y="71.28" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C32" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="4.53" y="46.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.4187" y="44.75" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="2.2487" y="44.63" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="6.435" y="44.75" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C33" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="6.12" y="46.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.0087" y="44.75" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="3.4287" y="44.63" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="8.025" y="44.75" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.24" y="33.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.51" y="32.8687" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="6.9113" y="34.59" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="6.51" y="35.885" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.24" y="35.57" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.51" y="34.4587" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="3.58" y="39.6287" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.51" y="37.475" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.24" y="37.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.51" y="36.0487" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="3.58" y="40.4687" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.51" y="39.065" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.24" y="38.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.51" y="37.6387" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="3.58" y="41.2987" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.51" y="40.655" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.24" y="40.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.51" y="39.2287" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="3.58" y="42.1487" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.51" y="42.245" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.24" y="41.93" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.51" y="40.8187" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="3.58" y="42.9987" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.51" y="43.835" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.235" y="43.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.505" y="42.4087" size="1.016" layer="25" ratio="18" rot="R180"/>
-<attribute name="VALUE" x="6.505" y="45.425" size="0.8128" layer="27" ratio="10" rot="R180"/>
+<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.245" y="43.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="3.595" y="43.8287" size="0.8128" layer="25" ratio="18" rot="R180"/>
+<attribute name="VALUE" x="6.515" y="45.425" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="220R" x="10.925" y="33.62" smashed="yes">
-<attribute name="NAME" x="9.655" y="34.7313" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="9.855" y="31.7913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="9.655" y="31.715" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="36.9" y="67.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.0113" y="69.15" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="38.0113" y="69.15" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="34.995" y="69.15" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C34" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="34.33" y="67.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.6" y="66.1387" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="34.92" y="71.8313" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="35.6" y="69.155" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C35" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="34.34" y="69.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.61" y="67.9487" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="34.91" y="72.7113" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="35.61" y="70.965" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1" value="" x="11.225" y="35.21" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.495" y="33.94" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.205" y="36.04" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="12.495" y="37.75" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R36" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="470R" x="47.27" y="82.91" smashed="yes" rot="R180">
-<attribute name="NAME" x="48.54" y="81.7987" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="45.63" y="81.1513" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="48.54" y="84.815" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R37" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="470R" x="50.6" y="82.91" smashed="yes">
-<attribute name="NAME" x="49.33" y="84.0213" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="48.98" y="81.1813" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="49.33" y="81.005" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="470R" x="38.08" y="84.03" smashed="yes">
-<attribute name="NAME" x="36.81" y="85.1413" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="36.46" y="85.0213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="36.81" y="82.125" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="10K" x="30.3" y="84.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.4113" y="85.65" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="29.7" y="81.9213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="28.395" y="85.65" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="4.7uF" x="26.35706875" y="84.52464375" smashed="yes" rot="R135">
-<attribute name="NAME" x="26.4692875" y="82.840809375" size="1.016" layer="25" ratio="18" rot="R135"/>
+<attribute name="NAME" x="29.3192875" y="82.510809375" size="0.8128" layer="25" ratio="18" rot="R135"/>
 <attribute name="VALUE" x="28.602134375" y="84.97365625" size="0.8128" layer="27" ratio="10" rot="R135"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="25.242425" y="83.41" smashed="yes" rot="R135">
-<attribute name="NAME" x="25.35464375" y="81.726165625" size="1.016" layer="25" ratio="18" rot="R135"/>
+<attribute name="NAME" x="28.14464375" y="81.146165625" size="0.8128" layer="25" ratio="18" rot="R135"/>
 <attribute name="VALUE" x="27.4874875" y="83.8590125" size="0.8128" layer="27" ratio="10" rot="R135"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1K" x="58.8" y="83.01" smashed="yes">
-<attribute name="NAME" x="57.53" y="84.1213" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="57.53" y="84.1213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="57.53" y="81.105" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10pF" x="18.8799125" y="84.404834375" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.991215625" y="85.67483125" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="17.921215625" y="82.81483125" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="16.9749125" y="85.674834375" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10pF" x="22.796409375" y="84.12285625" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.9077125" y="85.3928625" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="22.2371375" y="85.7677125" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="20.89140625" y="85.3928625" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="15.89869375" y="84.383275" smashed="yes" rot="R135">
-<attribute name="NAME" x="16.0109125" y="82.69944375" size="1.016" layer="25" ratio="18" rot="R135"/>
+<attribute name="NAME" x="17.0609125" y="85.73944375" size="0.8128" layer="25" ratio="18" rot="R135"/>
 <attribute name="VALUE" x="18.143759375" y="84.832290625" size="0.8128" layer="27" ratio="10" rot="R135"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="1uF" x="14.281925" y="82.76020625" smashed="yes" rot="R225">
-<attribute name="NAME" x="15.965759375" y="82.872425" size="1.016" layer="25" ratio="18" rot="R225"/>
+<attribute name="NAME" x="12.875759375" y="83.852425" size="0.8128" layer="25" ratio="18" rot="R225"/>
 <attribute name="VALUE" x="13.8329125" y="85.005271875" size="0.8128" layer="27" ratio="10" rot="R225"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="15.419290625" y="81.63828125" smashed="yes" rot="R225">
-<attribute name="NAME" x="17.103125" y="81.7505" size="1.016" layer="25" ratio="18" rot="R225"/>
+<attribute name="NAME" x="15.873125" y="80.7705" size="0.8128" layer="25" ratio="18" rot="R225"/>
 <attribute name="VALUE" x="14.970278125" y="83.883346875" size="0.8128" layer="27" ratio="10" rot="R225"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="4.7uF" x="29.57" y="73.4" smashed="yes" rot="R45">
-<attribute name="NAME" x="27.88616875" y="73.287784375" size="1.016" layer="25" ratio="18" rot="R45"/>
+<attribute name="NAME" x="31.28616875" y="74.027784375" size="0.8128" layer="25" ratio="18" rot="R45"/>
 <attribute name="VALUE" x="30.019015625" y="71.1549375" size="0.8128" layer="27" ratio="10" rot="R45"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="28.89" y="74.81" smashed="yes" rot="R45">
-<attribute name="NAME" x="27.20616875" y="74.697784375" size="1.016" layer="25" ratio="18" rot="R45"/>
+<attribute name="NAME" x="30.76616875" y="75.417784375" size="0.8128" layer="25" ratio="18" rot="R45"/>
 <attribute name="VALUE" x="29.339015625" y="72.5649375" size="0.8128" layer="27" ratio="10" rot="R45"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="4.7uF" x="18.5436375" y="70.4912125" smashed="yes" rot="R135">
-<attribute name="NAME" x="18.65585625" y="68.807378125" size="1.016" layer="25" ratio="18" rot="R135"/>
+<attribute name="NAME" x="20.132621875" y="69.79585625" size="0.8128" layer="25" ratio="18" rot="R225"/>
 <attribute name="VALUE" x="20.788703125" y="70.940225" size="0.8128" layer="27" ratio="10" rot="R135"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="19.81778125" y="71.458075" smashed="yes" rot="R135">
-<attribute name="NAME" x="19.929996875" y="69.774240625" size="1.016" layer="25" ratio="18" rot="R135"/>
+<attribute name="NAME" x="18.725759375" y="73.939996875" size="0.8128" layer="25" ratio="18" rot="R225"/>
 <attribute name="VALUE" x="22.06284375" y="71.9070875" size="0.8128" layer="27" ratio="10" rot="R135"/>
 </element>
 <element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="4.13" y="21" smashed="yes">
-<attribute name="NAME" x="2.86" y="22.1113" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="2.54" y="21.1387" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="2.86" y="19.095" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="4.13" y="18.57" smashed="yes">
-<attribute name="NAME" x="2.86" y="19.6813" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="4.8" y="17.3587" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="2.86" y="16.665" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="7.25" y="18.55" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.52" y="17.4387" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="4.81" y="15.5987" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="8.52" y="20.455" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="4.04" y="25.82505" smashed="yes">
-<attribute name="NAME" x="2.77" y="26.93635" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="1.51365" y="24.91" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="2.77" y="23.92005" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="5.01" y="23.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.8987" y="22.02" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="2.5287" y="22.14" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="6.915" y="22.02" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C36" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="120pF" x="3.43" y="23.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.3187" y="22.02" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="1.6787" y="22.14" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="5.335" y="22.02" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C39" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="7.25" y="25.835" smashed="yes">
-<attribute name="NAME" x="5.98" y="26.9463" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="2.3937" y="24.92" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="5.98" y="23.93" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C38" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="7.25" y="20.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.52" y="19.0287" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="4.81" y="16.4687" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="8.52" y="22.045" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C37" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="13.79" y="15.07" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.6787" y="13.8" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="15.6387" y="13.87" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="15.695" y="13.8" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="13.64" y="21.01" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.91" y="19.8987" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="15.31" y="20.6213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.91" y="22.915" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="13.62" y="18.55" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.89" y="17.4387" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="15.23" y="18.2513" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.89" y="20.455" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C40" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="10.55" y="20.15" smashed="yes">
-<attribute name="NAME" x="9.28" y="21.2613" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="15.31" y="19.7813" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="9.28" y="18.245" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="10.55" y="18.56" smashed="yes">
-<attribute name="NAME" x="9.28" y="19.6713" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="15.23" y="17.4113" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="9.28" y="16.655" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="12.75" y="23.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.6387" y="22.02" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="16.1087" y="22.04" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="14.655" y="22.02" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C41" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="120pF" x="14.34" y="23.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.2287" y="22.02" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="16.9587" y="22.04" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="16.245" y="22.02" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="13.45" y="25.84495" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.72" y="24.73365" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="16.82365" y="24.96" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="14.72" y="27.74995" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C42" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="10.47" y="25.845" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.74" y="24.7337" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="15.9637" y="24.96" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="11.74" y="27.75" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="7.52" y="9.14" smashed="yes">
-<attribute name="NAME" x="6.25" y="10.2513" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="5.94" y="9.2387" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.25" y="7.235" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="13.01" y="7.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.1213" y="8.79" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="15.52" y="7.5013" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="11.105" y="8.79" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C43" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="10.48" y="8.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.75" y="7.2887" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="8.41" y="5.0813" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="11.75" y="10.305" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="10.48" y="6.81" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.75" y="5.6987" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="8.41" y="4.2613" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="11.75" y="8.715" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="8.42" y="11.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.3087" y="10.15" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="5.8987" y="10.64" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="10.325" y="10.15" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C44" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="120pF" x="6.83" y="11.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.7187" y="10.17" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="5.0687" y="10.64" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="8.735" y="10.17" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R31" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="7.52" y="13.72" smashed="yes">
-<attribute name="NAME" x="6.25" y="14.8313" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="3.8" y="14.0587" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="6.25" y="11.815" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C45" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="10.52" y="13.72" smashed="yes">
-<attribute name="NAME" x="9.25" y="14.8313" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="5.86" y="14.0887" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="9.25" y="11.815" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C46" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="12.49" y="22.99" smashed="yes" rot="MR270">
-<attribute name="NAME" x="11.3787" y="24.26" size="1.016" layer="26" ratio="18" rot="MR270"/>
+<attribute name="NAME" x="14.2987" y="24.63" size="0.8128" layer="26" ratio="18" rot="MR270"/>
 <attribute name="VALUE" x="14.395" y="24.26" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="9.62" y="2.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.5087" y="1.29" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="8.5787" y="0.97" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="11.525" y="1.29" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="12.17" y="4.83" smashed="yes">
-<attribute name="NAME" x="10.9" y="5.9413" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="15.24" y="4.8313" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="10.9" y="2.925" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10uF" x="10.23" y="65.3" smashed="yes">
-<attribute name="NAME" x="8.96" y="66.4113" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="14.85" y="65.2913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="8.96" y="63.395" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="10.23" y="63.45" smashed="yes">
-<attribute name="NAME" x="8.96" y="64.5613" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="14.88" y="63.4213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="8.96" y="61.545" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="10.23" y="61.82" smashed="yes">
-<attribute name="NAME" x="8.96" y="62.9313" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="15.03" y="61.8113" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="8.96" y="59.915" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1M" x="10.37" y="54.83" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.2587" y="53.56" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="9.8" y="52.3713" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="12.275" y="53.56" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="200K" x="7.41" y="54.83" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.2987" y="53.56" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="6.67" y="52.3913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="9.315" y="53.56" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="10.5K" x="8.9" y="54.83" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.0113" y="56.1" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="8.25" y="52.3913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="6.995" y="56.1" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="12.84" y="59.65" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.11" y="58.5387" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="12.84" y="45.1513" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.11" y="61.555" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="12.85" y="57.81" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.12" y="56.6987" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="12.84" y="44.2913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.12" y="59.715" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10uF" x="12.85" y="55.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.12" y="54.8687" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="12.84" y="43.4013" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.12" y="57.885" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10uF" x="12.83" y="54.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.1" y="53.0287" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="12.84" y="42.5313" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.1" y="56.045" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R33" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="0R" x="15.24" y="51.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.1287" y="50.37" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="16.3687" y="47.95" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="17.145" y="50.37" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R34" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="0R" x="16.83" y="51.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.7187" y="50.37" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="17.1987" y="47.95" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="18.735" y="50.37" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1K" x="15.23" y="54.87" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.1187" y="53.6" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="17.0387" y="53.4" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="17.135" y="53.6" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1" value="" x="15.23" y="58.26" smashed="yes">
-<attribute name="NAME" x="13.96" y="56.99" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="16.93" y="56.87" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="17.77" y="56.99" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R35" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="33R" x="13.39" y="50.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.2787" y="49.41" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="12.1587" y="47.02" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="15.295" y="49.41" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R38" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="33R" x="11.8" y="50.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.6887" y="49.41" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="11.3287" y="47.02" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="13.705" y="49.41" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R39" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="33R" x="10.22" y="50.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.1087" y="49.41" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="10.4987" y="47.02" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="12.125" y="49.41" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R40" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1K" x="8.63" y="50.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.5187" y="49.41" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="9.6787" y="47.02" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="10.535" y="49.41" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C47" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="5.45" y="50.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.5613" y="51.95" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="8.0287" y="47.02" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="3.545" y="51.95" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C48" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="7.04" y="50.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.1513" y="51.95" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="8.8587" y="47.02" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="5.135" y="51.95" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R51" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="30.75" y="70.01" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.6387" y="68.74" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="37.88" y="70.2513" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="32.655" y="68.74" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R54" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="15.29" y="68.54" smashed="yes">
-<attribute name="NAME" x="14.02" y="69.6513" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="14.25" y="72.4013" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="14.02" y="66.635" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R56" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="26.2" y="70.01" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.0887" y="68.74" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="37.88" y="72.9213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="28.105" y="68.74" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R52" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="" x="34.34" y="70.92" smashed="yes">
-<attribute name="NAME" x="33.07" y="72.0313" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="34.91" y="73.6213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="33.07" y="69.015" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="IC10" library="enko" package="ISO3082" value="ISO3082" x="36.91" y="40.03" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.155" y="42.16" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="42.35" y="41.065" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="40.155" y="38.97" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C49" library="rcl" package="C0603" value="1019-3166**CAP 0603 CER 100nF 16V %10 X7R (AbC)" x="43.25" y="43.87" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.488" y="42.981" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="45.198" y="41.941" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="45.282" y="42.981" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C50" library="rcl" package="C0603" value="1019-3166**CAP 0603 CER 100nF 16V %10 X7R (AbC)" x="43.25" y="36.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.488" y="35.891" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="45.168" y="34.951" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="45.282" y="35.891" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R65" library="rcl" package="R0603" value="1029-2003**RES 0603 10R %1" x="31.92" y="26.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.809" y="27.089" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="31.971" y="22.271" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="29.888" y="27.089" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="X3" library="con-phoenix-381_l" package="MCV3" value="0289-9068**15EDGVC-3.81-03P-14" x="37.57" y="5.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.92" y="1.015" size="1.778" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="31.075" y="7.45" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="43.92" y="10.794" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C51" library="rcl" package="C0805" value="1019-3168&quot;,&quot;CAP 0805 CER 2.2uF 16V %10 X7R (AbC)" x="38.41" y="11.71" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.429" y="10.044" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="42.201" y="8.606" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="39.299" y="13.996" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C52" library="rcl" package="C050-055X075" value="0019-3020&quot;,&quot;CAP TH CER 470pF 3kV Y5P %10 85C F=7.5 D=8.5" x="43.82" y="14.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="40.645" y="11.351" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="46.469" y="19.585" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="46.106" y="11.478" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C53" library="rcl" package="C0805" value="1019-3168&quot;,&quot;CAP 0805 CER 2.2uF 16V %10 X7R (AbC)" x="38.41" y="17.27" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.429" y="15.604" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="42.211" y="10.206" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="39.299" y="19.556" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L1" library="rcl" package="R0805" value="1319-4025&quot;,&quot;INDUCTOR SMD 0805 4.7uH 500mA CL2012C-4R7M Core Master" x="38.41" y="14.51" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.332" y="12.854" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="42.208" y="9.376" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="39.172" y="16.796" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R41" library="rcl" package="R0603" value="1029-2232**RES 0603 120R %1" x="38.74" y="23.27" smashed="yes">
-<attribute name="NAME" x="37.851" y="24.159" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.011" y="20.559" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="37.851" y="21.238" size="1.27" layer="27"/>
 </element>
 <element name="R66" library="rcl" package="R0603" value="1029-2003**RES 0603 10R %1" x="41.475" y="26.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.364" y="27.289" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="42.544" y="26.529" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="39.443" y="27.289" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R69" library="rcl" package="R0603" value="1029-2003**RES 0603 10R %1" x="36.13" y="26.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.241" y="25.331" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="35.759" y="24.359" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="38.162" y="25.331" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C60" library="rcl" package="C0603" value="1200920378**CAP 0603 CER 100p 50V%5 NP0" x="41.485" y="30.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="40.723" y="29.271" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="43.303" y="28.301" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="43.517" y="29.271" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C61" library="rcl" package="C0603" value="1200920378**CAP 0603 CER 100p 50V%5 NP0" x="36.2" y="29.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.962" y="30.809" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.281" y="28.592" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="34.168" y="30.809" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L6" library="enko" package="ACM2012-900--2P-T002" value="1319-4002_ACM2012 SMD Common Mode Filter" x="38.78" y="30.13" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.93" y="34.22" size="1.778" layer="25" rot="R270"/>
+<attribute name="NAME" x="39.65" y="31.66" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="40.55" y="34.75" size="1.778" layer="27" rot="R270"/>
 </element>
 <element name="D10" library="diode" package="SOT23" value="1119-3034_ESD Protection Diode for CANBUS NXP PESD2CAN SOT23" x="38.79" y="26.31" smashed="yes">
-<attribute name="NAME" x="36.885" y="28.215" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.005" y="21.405" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="36.885" y="23.135" size="1.27" layer="27"/>
 </element>
 <element name="C66" library="rcl" package="C0603" value="NC" x="33.96" y="26.21" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.198" y="25.321" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="34.328" y="22.261" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="35.992" y="25.321" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED4" library="led" package="CHIP-LED0805" value="1209-0004**LED GREEN CLEAR THIN 0805 SMD" x="44.89" y="52.21" smashed="yes">
-<attribute name="NAME" x="43.62" y="50.94" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="46.8" y="50.31" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="47.43" y="50.94" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R48" library="rcl" package="R0603" value="1409-0025**RES 0603 470R %5 1/16W" x="44.98" y="48.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.091" y="47.231" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="43.881" y="46.201" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="47.012" y="47.231" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP4" library="testpad" package="TP18R" value="PTR1TP18R" x="39.21" y="46.97" smashed="yes">
-<attribute name="NAME" x="38.3101" y="47.92" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.3101" y="47.92" size="0.8128" layer="25"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="39.21" y="44.43" size="1" layer="37"/>
 <attribute name="VALUE" x="38.448" y="46.081" size="0.0254" layer="27"/>
 </element>
 <element name="TP5" library="testpad" package="TP18R" value="PTR1TP18R" x="36.38" y="46.91" smashed="yes">
-<attribute name="NAME" x="35.4801" y="47.86" size="1.27" layer="25"/>
+<attribute name="NAME" x="35.4801" y="47.86" size="0.8128" layer="25"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="36.38" y="44.37" size="1" layer="37"/>
 <attribute name="VALUE" x="35.618" y="46.021" size="0.0254" layer="27"/>
 </element>
 <element name="TP6" library="testpad" package="TP18R" value="PTR1TP18R" x="33.93" y="47.17" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.8299" y="46.22" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="34.8599" y="48.89" size="0.8128" layer="25" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="33.93" y="49.71" size="1" layer="37" rot="R180"/>
 <attribute name="VALUE" x="34.692" y="48.059" size="0.0254" layer="27" rot="R180"/>
 </element>
 <element name="TP7" library="testpad" package="TP18R" value="PTR1TP18R" x="38.99" y="33" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.94" y="33.8999" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="40.2601" y="32.48" size="0.8128" layer="25"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="36.45" y="33" size="1" layer="37" rot="R270"/>
 <attribute name="VALUE" x="38.101" y="33.762" size="0.0254" layer="27" rot="R270"/>
 </element>
 <element name="TP8" library="testpad" package="TP18R" value="PTR1TP18R" x="36.23" y="32.79" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.18" y="33.6899" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="32.8001" y="32.75" size="0.8128" layer="25"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="33.69" y="32.79" size="1" layer="37" rot="R270"/>
 <attribute name="VALUE" x="35.341" y="33.552" size="0.0254" layer="27" rot="R270"/>
 </element>
 <element name="TP11" library="testpad" package="TP18R" value="PTR1TP18R" x="44.98" y="55.51" smashed="yes">
-<attribute name="NAME" x="44.0801" y="56.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="46.36" y="56.5101" size="0.8128" layer="25" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="44.98" y="52.97" size="1" layer="37"/>
 <attribute name="VALUE" x="44.218" y="54.621" size="0.0254" layer="27"/>
 </element>
 <element name="DC7" library="my_parts1" package="RI-0512S/P_DC_DC_5V_12V" value="RI-0512S/P_DC_DC_5V_12V" x="35.99" y="15.63" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.29" y="9.7" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="37.04" y="19.33" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="37.37" y="9.56" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J3" library="Andromeda" library_urn="urn:adsk.eagle:library:27258842" package="CONNECTOR-SMD-2PIN" value="CONNECTOR-SMD-2PIN" x="12.68" y="2.44" smashed="yes" rot="R270"/>
@@ -3073,11 +3073,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SY7152ABC" x="30.71" y="85.13" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="30.71" y="85.13" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="30.71" y="85.13" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="NAME" x="39.21" y="58.13" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="42.11" y="59.4" size="0.8128" layer="25" align="center"/>
 <attribute name="VALUE" x="39.21" y="58.13" size="1.27" layer="27" align="center"/>
 </element>
 <element name="L2" library="wuerth-elektronik" package="WE-PD2_S" value="1319-4102**INDUCTOR POWER 22UH 4X4X1.8MM SMD" x="36.06" y="62.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.25" y="65.32" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="37.1" y="65.5" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.6" y="65.32" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D5" library="Diode" library_urn="urn:adsk.eagle:library:16378169" package="DIOM5226X290N" package3d_urn="urn:adsk.eagle:package:16378188/1" value="1119-3055" x="35.64" y="56.69" smashed="yes" rot="R90">
@@ -3086,7 +3086,7 @@ design rules under a new name.</description>
 <attribute name="FORWARD_CURRENT" value="" x="22.64" y="38.69" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="22.64" y="38.69" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="22.64" y="38.69" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="33.53" y="56.69" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="34.78" y="52.96" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="22.64" y="38.69" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="22.64" y="38.69" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="REVERSE_VOLTAGE" value="" x="22.64" y="38.69" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
@@ -3098,83 +3098,83 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="37.75" y="56.69" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="C54" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10uF" x="40.27" y="60.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.54" y="59.6687" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="41.88" y="60.4613" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="41.54" y="62.685" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C55" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="40.27" y="62.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.54" y="61.5287" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="41.94" y="62.3913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="41.54" y="64.545" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C56" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="40.27" y="64.49" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.54" y="63.3787" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="39.34" y="65.4713" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="41.54" y="66.395" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1M" x="42.26" y="56.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.1487" y="55.1" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="45.3487" y="57.89" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="44.165" y="55.1" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R43" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="200K" x="38.18" y="54.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.0687" y="53.33" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="41.5787" y="52.7" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="40.085" y="53.33" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R44" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="10.5K" x="40.02" y="54.61" smashed="yes" rot="R270">
-<attribute name="NAME" x="41.1313" y="55.88" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="42.3887" y="52.7" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="38.115" y="55.88" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C57" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="32.37" y="52.98" smashed="yes">
-<attribute name="NAME" x="31.1" y="54.0913" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="31.52" y="59.5713" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="31.1" y="51.075" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C58" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="32.37" y="54.84" smashed="yes">
-<attribute name="NAME" x="31.1" y="55.9513" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="31.58" y="61.4913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="31.1" y="52.935" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C59" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10uF" x="32.37" y="56.69" smashed="yes">
-<attribute name="NAME" x="31.1" y="57.8013" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="31.57" y="62.5413" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="31.1" y="54.785" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="C62" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10uF" x="32.37" y="58.55" smashed="yes">
-<attribute name="NAME" x="31.1" y="59.6613" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="31.57" y="63.3913" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="31.1" y="56.645" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="0R" x="31.69" y="50.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.5787" y="49.165" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="29.285" y="45.3313" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="33.595" y="49.165" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R46" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="0R" x="29.85" y="50.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.7387" y="49.165" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="29.285" y="46.1313" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="31.755" y="49.165" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R47" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1K" x="29.84" y="53.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.7287" y="52.41" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="28.9387" y="52.36" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="31.745" y="52.41" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1" value="" x="29.76" y="57.04" smashed="yes">
-<attribute name="NAME" x="28.49" y="55.77" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="28.97" y="55.62" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="32.3" y="55.77" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R49" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="33R" x="37.25" y="50.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.1387" y="49.165" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="29.285" y="42.8813" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="39.155" y="49.165" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R50" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="33R" x="35.4" y="50.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.2887" y="49.165" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="29.285" y="43.7013" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="37.305" y="49.165" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R53" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="33R" x="33.54" y="50.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.4287" y="49.165" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="29.285" y="44.5213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="35.445" y="49.165" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R55" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="R0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638826/1" value="1K" x="39.1" y="50.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.9887" y="49.17" size="1.016" layer="25" ratio="18" rot="R90"/>
+<attribute name="NAME" x="29.29" y="42.0613" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="41.005" y="49.17" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C63" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="100nF" x="40.96" y="50.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.0713" y="51.7" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="29.29" y="41.2413" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="39.055" y="51.7" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C64" library="rcl" library_urn="urn:adsk.eagle:library:26637914" package="C0603_ENKO" package3d_urn="urn:adsk.eagle:package:26638827/1" value="10nF" x="42.81" y="50.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.9213" y="51.69" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="29.29" y="40.4213" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="40.905" y="51.69" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="J5" library="Andromeda" library_urn="urn:adsk.eagle:library:27258842" package="CONNECTOR-SMD-2PIN" value="CONNECTOR-SMD-2PIN" x="28.45" y="2.78" smashed="yes" rot="R90"/>
@@ -3191,7 +3191,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="6" x="91.8" y="82.5" size="1.778" layer="27" font="vector" display="off"/>
 </element>
 <element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X06" package3d_urn="urn:adsk.eagle:package:6240711/1" value="" x="68.69" y="83.5" smashed="yes">
-<attribute name="NAME" x="60.9938" y="85.3288" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="61.2238" y="84.9688" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="61.07" y="80.325" size="1.27" layer="27"/>
 </element>
 </elements>
@@ -5437,8 +5437,8 @@ design rules under a new name.</description>
 <contactref element="C32" pad="1"/>
 <contactref element="C33" pad="1"/>
 <contactref element="R15" pad="2"/>
-<wire x1="4.4412" y1="43.52" x2="4.4412" y2="45.1374" width="0.508" layer="1"/>
-<wire x1="4.4412" y1="45.1374" x2="4.53" y2="45.2262" width="0.508" layer="1"/>
+<wire x1="4.4512" y1="43.52" x2="4.4512" y2="45.1474" width="0.508" layer="1"/>
+<wire x1="4.4512" y1="45.1474" x2="4.53" y2="45.2262" width="0.508" layer="1"/>
 <wire x1="4.53" y1="45.2262" x2="6.12" y2="45.2262" width="0.508" layer="1"/>
 </signal>
 <signal name="N$7">
@@ -5878,7 +5878,7 @@ design rules under a new name.</description>
 <wire x1="7.29" y1="43.27" x2="6.539996875" y2="43.27" width="0.3048" layer="1"/>
 <wire x1="6.539996875" y1="43.27" x2="6.2988" y2="43.27" width="0.3048" layer="1"/>
 <wire x1="6.2988" y1="43.27" x2="6.0488" y2="43.52" width="0.3048" layer="1"/>
-<wire x1="6.0488" y1="43.52" x2="6.0288" y2="43.52" width="0.3048" layer="1"/>
+<wire x1="6.0488" y1="43.52" x2="6.0388" y2="43.52" width="0.3048" layer="1"/>
 <wire x1="7.29" y1="42.519996875" x2="7.565546875" y2="43.149353125" width="0.3048" layer="16"/>
 <wire x1="7.29" y1="43.27" x2="7.565546875" y2="43.149353125" width="0.3048" layer="16"/>
 <wire x1="7.29" y1="42.519996875" x2="7.01445" y2="43.149353125" width="0.3048" layer="16"/>
