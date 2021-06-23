@@ -25056,6 +25056,12 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="458.47" y1="91.44" x2="457.2" y2="91.44" width="0.1524" layer="91"/>
 <junction x="457.2" y="91.44"/>
 </segment>
+<segment>
+<pinref part="X6" gate="-2" pin="S"/>
+<wire x1="66.04" y1="213.36" x2="66.04" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="210.82" x2="73.66" y2="210.82" width="0.1524" layer="91"/>
+<label x="68.58" y="210.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -25090,13 +25096,6 @@ Opsiyonel olarak eklenmistir.</text>
 <wire x1="284.48" y1="26.67" x2="281.94" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="DGND" class="0">
-<segment>
-<label x="66.04" y="209.55" size="1.778" layer="95" rot="R90"/>
-<wire x1="66.04" y1="213.36" x2="66.04" y2="209.55" width="0.1524" layer="91"/>
-<pinref part="X6" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="G11_PWM" class="0">
@@ -26012,6 +26011,25 @@ Opsiyonel olarak eklenmistir.</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,424.18,223.52,IC10,NC1,,,,"/>
+<approved hash="202,1,424.18,215.9,IC10,NC2,,,,"/>
+<approved hash="106,1,66.04,213.36,DGND,,,,,"/>
+<approved hash="206,1,426.72,168.91,RS485_ISO_5V,,,,,"/>
+<approved hash="206,1,424.18,228.6,RS485_ISO_5V,,,,,"/>
+<approved hash="208,1,448.31,171.45,RS485_ISO_5V,sup,,,,"/>
+<approved hash="208,1,426.72,168.91,RS485_ISO_5V,out,,,,"/>
+<approved hash="208,1,426.72,231.14,RS485_ISO_5V,sup,,,,"/>
+<approved hash="208,1,424.18,228.6,RS485_ISO_5V,out,,,,"/>
+<approved hash="208,1,431.8,157.48,RS485_ISO_GND,sup,,,,"/>
+<approved hash="208,1,426.72,163.83,RS485_ISO_GND,out,,,,"/>
+<approved hash="208,1,425.45,195.58,RS485_ISO_GND,sup,,,,"/>
+<approved hash="208,1,438.15,241.3,RS485_ISO_GND,sup,,,,"/>
+<approved hash="208,1,450.85,233.68,RS485_ISO_GND,sup,,,,"/>
+<approved hash="208,1,450.85,205.74,RS485_ISO_GND,sup,,,,"/>
+<approved hash="208,1,534.67,220.98,RS485_ISO_GND,sup,,,,"/>
+<approved hash="208,1,524.51,179.07,RS485_ISO_GND,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
